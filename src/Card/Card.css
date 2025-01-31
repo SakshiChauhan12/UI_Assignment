@@ -1,0 +1,43 @@
+
+.card-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(23, 1fr);
+    gap: 2px;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .cell {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    cursor: pointer;
+    user-select: none;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .cell.highlighted {
+    background-color: lightblue;
+    color: black;
+  }
+  
+  .cell.blue {
+    background-color: blue;
+  }
