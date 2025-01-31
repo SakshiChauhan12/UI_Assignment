@@ -33,11 +33,8 @@
     box-sizing: border-box;
   }
   
-  .cell.highlighted {
-    background-color: lightblue;
-    color: black;
-  }
+ 
   
   .cell.blue {
     background-color: blue;
-  }
+  } 
